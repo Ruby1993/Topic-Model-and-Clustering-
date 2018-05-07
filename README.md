@@ -178,6 +178,29 @@ Number of films included in each cluster:
   </tbody>
 </table>
 
+Detailsed Output
+
+  <Document clustering result by K-means>
+    Cluster 0 words: george, marries, family, woman, friend, john,
+    Cluster 0 titles (6 movies): 
+    It's a Wonderful Life, The Philadelphia Story, An American in Paris, The King's Speech, A Place in the Sun, Tootsie
+    
+    Cluster 1 words: family, war, home, sister, house, new,
+    Cluster 1 titles (24 movies): 
+    The Godfather, The Shawshank Redemption, Schindler's List, Casablanca, Gone with the Wind, The Wizard of Oz, The Godfather: Part II, Forrest Gump, The Sound of Music, E.T. the Extra-Terrestrial, A Streetcar Named Desire, The Best Years of Our Lives, Ben-Hur, Doctor Zhivago, The Pianist, Goodfellas, Midnight Cowboy, Out of Africa, Terms of Endearment, Giant, The Grapes of Wrath, Network, Wuthering Heights, Yankee Doodle Dandy
+    
+    Cluster 2 words: car, police, father, killing, say, asks,
+    Cluster 2 titles (39 movies): 
+    Raging Bull, Psycho, Sunset Blvd., Vertigo, On the Waterfront, West Side Story, The Silence of the Lambs, Chinatown, Singin' in the Rain, Some Like It Hot, 12 Angry Men, Amadeus, Gandhi, Unforgiven, Rocky, To Kill a Mockingbird, My Fair Lady, The Good, the Bad and the Ugly, The Apartment, High Noon, The French Connection, City Lights, It Happened One Night, Rain Man, Good Will Hunting, Fargo, Shane, The Green Mile, The Graduate, American Graffiti, Pulp Fiction, The Maltese Falcon, A Clockwork Orange, Taxi Driver, Double Indemnity, Rebel Without a Cause, Rear Window, The Third Man, North by Northwest
+    
+    Cluster 3 words: soldiers, killing, army, commanded, general, orders,
+    Cluster 3 titles (21 movies): 
+    One Flew Over the Cuckoo's Nest, Lawrence of Arabia, The Bridge on the River Kwai, Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb, Apocalypse Now, The Lord of the Rings: The Return of the King, Gladiator, From Here to Eternity, Saving Private Ryan, Raiders of the Lost Ark, Patton, Braveheart, Butch Cassidy and the Sundance Kid, The Treasure of the Sierra Madre, Platoon, Dances with Wolves, The Deer Hunter, All Quiet on the Western Front, Mr. Smith Goes to Washington, The African Queen, Stagecoach
+    
+    Cluster 4 words: ship, water, singing, board, attempting, appear,
+    Cluster 4 titles (10 movies): 
+    Citizen Kane, Titanic, Star Wars, 2001: A Space Odyssey, Jaws, The Exorcist, Annie Hall, Close Encounters of the Third Kind, Nashville, Mutiny on the Bounty
+    
 
 
 
