@@ -8,3 +8,10 @@ Text is the necessary format that carry a lot of info. In this project, we are g
 
 In our dataset, we had 100 movies with titles, wikis, reviews info collected from an online post.
 
+### Content
+
+[Part 1: Load Data]
+[Part 2: Tokenizing and Stemming]
+[Part 3: TF-IDF]
+[Part 4: K-means clustering]
+[Part 5: Topic Modeling - Latent Dirichlet Allocation]
