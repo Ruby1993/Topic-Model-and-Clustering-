@@ -24,21 +24,11 @@ Part 5: Topic Modeling - Latent Dirichlet Allocation
 
 ##### K-MEANS Cluster
 
+Based on the sample output, we could see that the movies are clustered together based on the TF-IDF matrix.
+At the same time, we could see how many movies are clustered in the same group, and their average rank for each cluster.
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -114,33 +104,11 @@ Part 5: Topic Modeling - Latent Dirichlet Allocation
 </div>
 
 
-
-
-```python
-print "Number of films included in each cluster:"
-frame['cluster'].value_counts().to_frame()
-```
-
-    Number of films included in each cluster:
-
-
-
+Number of films included in each cluster:
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -173,6 +141,42 @@ frame['cluster'].value_counts().to_frame()
 </table>
 </div>
 
+ Average rank (1 to 100) per cluster:
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>rank</th>
+    </tr>
+    <tr>
+      <th>cluster</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>47.636364</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>42.960000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>52.342105</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>59.428571</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>49.842105</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
