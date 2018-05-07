@@ -178,7 +178,7 @@ Number of films included in each cluster:
   </tbody>
 </table>
 
-Detailsed Output
+Detailed Output
 
   <Document clustering result by K-means>
     Cluster 0 words: george, marries, family, woman, friend, john,
@@ -201,7 +201,33 @@ Detailsed Output
     Cluster 4 titles (10 movies): 
     Citizen Kane, Titanic, Star Wars, 2001: A Space Odyssey, Jaws, The Exorcist, Annie Hall, Close Encounters of the Third Kind, Nashville, Mutiny on the Bounty
     
+ 
+ 
+##### Latent Dirichlet Allocation
 
+As the input for this model need to be integer,I multiplied the TF-IDF matix by 100 times.
+
+
+    <Document clustering result by LDA>
+    Cluster 0 words: police, car, george, killing, apartment, murder
+    Cluster 0 titles (37 movies): 
+    The Godfather, The Shawshank Redemption, Casablanca, Psycho, Vertigo, On the Waterfront, Forrest Gump, West Side Story, E.T. the Extra-Terrestrial, The Silence of the Lambs, Chinatown, It's a Wonderful Life, Raiders of the Lost Ark, A Streetcar Named Desire, Ben-Hur, Doctor Zhivago, Jaws, The Good, the Bad and the Ugly, The Treasure of the Sierra Madre, The Apartment, The Pianist, Goodfellas, The Deer Hunter, The French Connection, It Happened One Night, A Place in the Sun, Rain Man, Fargo, American Graffiti, Pulp Fiction, Stagecoach, The Maltese Falcon, Double Indemnity, Rebel Without a Cause, Rear Window, The Third Man, North by Northwest
+    
+    Cluster 1 words: captain, prison, water, ship, camping, guard
+    Cluster 1 titles (11 movies): 
+    Schindler's List, Titanic, The Sound of Music, Star Wars, 2001: A Space Odyssey, The Bridge on the River Kwai, The Grapes of Wrath, The Green Mile, Close Encounters of the Third Kind, The African Queen, Mutiny on the Bounty
+    
+    Cluster 2 words: home, n't, say, woman, room, days
+    Cluster 2 titles (21 movies): 
+    One Flew Over the Cuckoo's Nest, Gone with the Wind, The Wizard of Oz, Sunset Blvd., Singin' in the Rain, Some Like It Hot, 12 Angry Men, Gandhi, Rocky, To Kill a Mockingbird, An American in Paris, My Fair Lady, The Exorcist, Midnight Cowboy, Mr. Smith Goes to Washington, Tootsie, Network, The Graduate, A Clockwork Orange, Taxi Driver, Wuthering Heights
+    
+    Cluster 3 words: war, army, soldiers, killing, men, general
+    Cluster 3 titles (16 movies): 
+    Lawrence of Arabia, Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb, Apocalypse Now, The Lord of the Rings: The Return of the King, Gladiator, From Here to Eternity, Saving Private Ryan, Unforgiven, Patton, Braveheart, Butch Cassidy and the Sundance Kid, Platoon, High Noon, Dances with Wolves, All Quiet on the Western Front, Shane
+    
+    Cluster 4 words: father, family, marries, york, new, relationship
+    Cluster 4 titles (15 movies): 
+    Raging Bull, Citizen Kane, The Godfather: Part II, Amadeus, The Philadelphia Story, The Best Years of Our Lives, City Lights, The King's Speech, Annie Hall, Out of Africa, Good Will Hunting, Terms of Endearment, Giant, Nashville, Yankee Doodle Dandy
 
 
 
