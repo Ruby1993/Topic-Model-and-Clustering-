@@ -229,8 +229,3 @@ As the input for this model need to be integer,I multiplied the TF-IDF matix by 
     Cluster 4 titles (15 movies): 
     Raging Bull, Citizen Kane, The Godfather: Part II, Amadeus, The Philadelphia Story, The Best Years of Our Lives, City Lights, The King's Speech, Annie Hall, Out of Africa, Good Will Hunting, Terms of Endearment, Giant, Nashville, Yankee Doodle Dandy
 
-
-
-
-
-
